@@ -61,7 +61,7 @@ async function start(req, res) {
 
       session.on("quizStart", quiz => {
         if (i < num)
-          console.log("i like ya cut g " + (i<num?i + 1:"haha") + " ready for action: ", quiz.name);
+          console.log(" yas  " + (i<num?i + 1:"haha") + " ready for action: ", quiz.name);
       });
       session.on("questionStart", question => {
         sessions[0].leave();
@@ -116,7 +116,7 @@ async function start(req, res) {
       session.on("invalidName", () => {
         n(true);
       });
-      session.join(id, "1992 space movie " + (i<num?i + 1:"haha"), "bot gang");
+      session.join(id, "35832" + (i<num?i + 1:"haha"), "bot gang");
     }).catch(err => {
       res.send(err);
       return;
